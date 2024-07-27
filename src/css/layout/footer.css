@@ -19,7 +19,8 @@
 .footer-content .row {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
+    
     background-color: rgba(241, 241, 241, 0.3);
     border-radius: 3px;
 }
@@ -31,9 +32,21 @@
     
 }
 
+.footer-content .row h3:hover {
+ 
+    border-bottom: solid rgb(161, 161, 236) 1px ;
+    border-width: 3px;
+    transition: all 0.2s;
+    
+}
+
 .footer-text {
     list-style: none;
-    margin: 5px;
+   
+}
+
+.footer-text li{
+    margin: 10px 5px;
 }
 
 
