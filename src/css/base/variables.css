@@ -1,0 +1,15 @@
+:root {
+    --main-padding: 20px;
+    --header-font: "Gabarito", sans-serif;
+    --primary-font: "Titillium Web", sans-serif;
+    --brand-font: "Seymour One", sans-serif;
+    --footer-font: "Jost", sans-serif;
+    --course-font: "Lato", sans-serif;
+    --label-color: rgb(236, 235, 235);
+    --main-bg:#F2F2F2;
+}
+
+body {
+    background-color: rgb(230, 230, 233);
+    font-family: "Roboto Condensed", sans-serif;
+}

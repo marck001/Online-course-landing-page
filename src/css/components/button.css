@@ -1,0 +1,43 @@
+button {
+    cursor: pointer;
+}
+
+.explore button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: none;
+    font-family: var(--course-font);
+}
+
+.explore button:hover {
+    background-color: chartreuse;
+    font-weight: 500;
+    transition: background-color 0.6s ease;
+}
+
+.row2 button {
+    margin: 5px;
+    padding: 10px 20px;
+    color: #52525e;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--course-font);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.row2 button:hover {
+    background-color: rgba(76, 197, 197, 0.6);
+    color: azure;
+    transition: background-color 0.5s ease;
+}
+
+.row-info button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(45, 241, 241);
+    color: rgb(250, 245, 245);
+    
+}

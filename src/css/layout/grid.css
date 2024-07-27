@@ -1,0 +1,119 @@
+
+.row {
+    flex-wrap: wrap;
+}
+
+.row2 {
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.row2 .content {
+    display: flex;
+}
+
+.row2 .icons {
+    margin: 20px;
+}
+
+.row2 .icons a:hover {
+    background-color: #52525e;
+    color: aliceblue;
+}
+
+.landing-section .container {
+    padding: 40px 0px 0px;
+}
+
+.landing-info {
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+}
+
+.landing-info .main-info {
+    font-size: 2.2em;
+    margin: 10px;
+}
+
+.main-info input {
+    margin: 10px 0px;
+    /*border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;*/
+    border-radius: 8px;
+    background-color: rgb(247, 248, 248);
+}
+
+.main-info .info {
+    font-size: 0.5em;
+    gap: 25px;
+    margin: 20px;
+}
+
+.main-info .info p {
+    background-color: rgb(163, 223, 223, 0.7);
+    padding: 10px 20px;
+    border-radius: 18px;
+    border: solid white 1px;
+}
+
+.main-info .info,
+.landing-info {
+    display: flex;
+    justify-content: center;
+
+}
+
+.info {
+    margin: 10px;
+}
+
+.landing-info .contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: var(--main-padding);
+}
+.label{
+    background-color: rgb(243, 243, 243) ;
+    padding: 40px;
+}
+
+.course-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.course-content{
+    justify-content: center;
+    align-items: center;
+}
+.course-section .container .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section {
+    background-color: aliceblue;
+}
+
+.form-section .container {
+    display: flex;
+
+}
+
+.main-header,
+.header-content,
+.nav,
+.row,
+.row2 .content , #slider, .course-content{
+    display: flex;
+}
+
+
+
+
+
+

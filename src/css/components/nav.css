@@ -1,0 +1,19 @@
+.nav {
+    margin: 10px;
+    gap: 12%;
+    list-style-type: none;
+}
+
+.nav a {
+    display: flex;
+    margin-right: 3px;
+    gap: 5px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  

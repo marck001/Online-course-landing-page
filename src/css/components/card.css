@@ -1,0 +1,116 @@
+.box-content {
+    padding: var(--main-padding);
+    background-color: rgb(241, 241, 241);
+    margin: 30px 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-family: var(--primary-font);
+    color: #3b3b4f;
+}
+
+.search-box a{
+
+    background-color: aqua;
+    padding: 0px 10px;
+}
+
+.search-box{
+    display: inline;
+    margin: 0;
+}
+.box-content .text-content {
+    text-align: left;
+    justify-content: stretch;
+}
+
+.box-content .text-content h4 {
+    color: black;
+}
+
+.box-img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 15px;
+    padding: 25px 10px;
+}
+
+
+.course-content {
+    display: grid;
+    margin: 10px 20px;
+    font-size: 1.1em;
+    font-family: var(--course-font);
+}
+
+.course {
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.course {
+    margin: 20px 10px;
+}
+
+.course :not(:first-child) {
+    padding: 15px;
+
+}
+
+.course:hover {
+    box-shadow: 1px 2px 3px 0px black;
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+}
+
+.course .text-content {
+    padding: 0px;
+    color: rgb(38, 39, 39);
+}
+
+.course-img {
+    width: 320px;
+    height: 200px;
+}
+
+.row-info {
+    padding: var(--main-padding);
+    background-color: var(--label-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+    font-family: var(--primary-font);
+}
+
+
+
+.icons a {
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.row2 .icons a:hover {
+    background-color: #52525e;
+    color: aliceblue;
+    transition: background-color 0.6s ease;
+}
+
+.explore {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 47, 255);
+    margin-top: 20px;
+}
+
+.explore p {
+    background: rgba(239, 248, 245, 0.938);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.rating i {
+    display: inline;
+    padding: 5px;
+
+}

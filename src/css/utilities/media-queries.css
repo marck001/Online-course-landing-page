@@ -1,0 +1,40 @@
+@media screen and (max-width: 900px) {
+    .form-section .container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .row2 .content {
+        display: none;
+    }
+
+    .header-content .row {
+        justify-content: center;
+    }
+
+    .main-header {
+        justify-content: left;
+        align-items: flex-end;
+    }
+
+
+    .slider-container {
+        width: 370px;
+
+    }
+
+
+    #menu-icon {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .header-content {
+        display: none;
+    }
+
+}
+

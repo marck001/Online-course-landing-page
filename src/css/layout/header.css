@@ -1,0 +1,45 @@
+.main-header {
+    font-family: var(--header-font);
+    font-size: 1.1em;
+    background-color: aliceblue;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.sub-header {
+    background-color: rgb(129, 231, 231);
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    color: aliceblue;
+    position: sticky;
+    font-family: var(--primary-font);
+}
+
+.sub-header a {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.sub-header a:hover {
+    background-color: rgb(0, 255, 242);
+}
+
+.header-content {
+    margin: 10px;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+#menu-icon {
+    display: none;
+    position: absolute;
+    padding: 8px 12px;
+    top: 20px;
+    margin-right: 10px;
+    right: 0;
+    background-color: rgba(252, 252, 252, 0.5);
+    border-radius: 5px;
+    border: solid 1px rgb(143, 140, 140);
+}
