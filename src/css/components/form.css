@@ -3,22 +3,23 @@
     font-size: 1.3em;
     background-color: rgb(112, 228, 218);
     padding: var(--main-padding);
-    padding: 2% 10%;
+    padding: 1% 5%;
     color: aliceblue;
     font-family: var(--primary-font);
+    text-align: center;
 }
 
 .form h3 {
-    font-size: 2.0em;
+    font-size: 2.2em;
+    padding: var(--main-padding);
 }
 
 .form input {
-    background-color: rgb(238, 252, 252);
+    background-color: rgb(250, 253, 253);
     padding: 5px 20px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 5px;
-    border-radius: 10px;
-
+    border-radius: 0.25rem;
 }
 
 .form button {
@@ -28,7 +29,6 @@
     justify-content: center;
     border-radius: 10px;
     color: azure;
-
 }
 
 .form-row {
@@ -37,17 +37,52 @@
 
 .field {
     border: none;
-    padding: 2rem;
     border-bottom: 3px solid #3b3b4f;
+    text-align: left;
+}
+
+.field label{
+    display: block;
+    margin-bottom: 10px;
 }
 
 .form-section .form-info {
-    padding: 10%;
+    padding: 10% 5%;
     font-size: 2.0em;
-
 }
 
-.form-section .form-info .container {
+.form-content{
+    display: grid;
+    flex-direction: column;
+    background-color: rgb(135, 241, 227);
+    padding: var(--main-padding);
+    border-radius: 10px;
+}
+
+.form-info .container {
     margin: var(--main-padding);
     display: block;
 }
+
+.form-info .container  p {
+    margin: 1rem 0;
+    font-weight: 300;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+  }
+  
+  .form-info h4{
+    font-size: 1.3em;
+  }
+
+  .form-info .container form input {
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    outline: none;
+    border: 1px solid #94949c;
+    background: transparent;
+    color: #94949c;
+    font-weight: 300;
+  }
+  
+

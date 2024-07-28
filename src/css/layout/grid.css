@@ -83,7 +83,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
 }
 
 .course-content{
@@ -99,11 +98,15 @@
     background-color: aliceblue;
 }
 
-.form-section .container {
+.form-section .form-container {
     display: flex;
-
 }
 
+.form-info .container form {
+    display: flex;
+    align-items: center;
+  }
+  
 .main-header,
 .header-content,
 .nav,

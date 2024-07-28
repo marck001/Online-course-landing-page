@@ -1,3 +1,9 @@
+body {
+    background-color: rgb(230, 230, 233);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
 .bg-light {
     background-color: rgb(236, 242, 247);
 }

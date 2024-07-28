@@ -39,5 +39,29 @@ button {
     border-radius: 10px;
     background-color: rgb(45, 241, 241);
     color: rgb(250, 245, 245);
-    
+
+}
+
+
+.form-info .container form button,
+.form button {
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    outline: none;
+    margin-left: 0.5rem;
+    border: 1px solid #54e9d0;
+    background-color: #54e9d0;
+    color: aliceblue;
+    transition: 0.3s ease-in-out;
+    font-weight: 400;
+}
+
+.form-info .container form button:hover {
+    background: transparent;
+    color: #14c8aa;
+}
+
+.form button:hover {
+    transform: scale(1.02);
+    border: #eff1ef solid 2px;
 }
