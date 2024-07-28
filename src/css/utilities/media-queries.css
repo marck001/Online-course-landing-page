@@ -29,12 +29,23 @@
         display: block;
     }
 
+    .main-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
 }
 
 @media screen and (max-width: 800px) {
     .header-content {
         display: none;
+
     }
 
 }
-
