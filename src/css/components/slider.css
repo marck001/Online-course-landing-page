@@ -26,15 +26,7 @@
 .slider-container .slider-btn.inactive {
 	border-color: #282828
 }
-/*
-.slider-container .slider-btn:first-of-type {
-	left: 10px
-}
 
-.slider-container .slider-btn:last-of-type {
-	right: 10px;
-}
-*/
 .slider-container .left-btn {
 	left: 10px
 }
