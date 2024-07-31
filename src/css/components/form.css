@@ -25,7 +25,7 @@
 .form button {
     background-color: rgb(20, 241, 241);
     padding: 10px 20px;
-    font-size: 25px;
+    font-size: 22px;
     justify-content: center;
     border-radius: 10px;
     color: azure;
@@ -39,6 +39,8 @@
     border: none;
     border-bottom: 3px solid #3b3b4f;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .field label{
@@ -52,7 +54,7 @@
 }
 
 .form-content{
-    display: grid;
+    display: flex;
     flex-direction: column;
     background-color: rgb(135, 241, 227);
     padding: var(--main-padding);

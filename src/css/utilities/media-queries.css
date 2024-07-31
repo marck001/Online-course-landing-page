@@ -2,6 +2,11 @@
     .form-section .form-container {
         flex-direction: column;
     }
+
+    .form-info .container form {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width: 1250px) {
@@ -16,6 +21,10 @@
     .main-header {
         justify-content: left;
         align-items: flex-end;
+    }
+
+    .sub-header a {
+       margin-bottom: 10px;
     }
 
 
