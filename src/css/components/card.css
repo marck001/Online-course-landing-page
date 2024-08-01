@@ -79,7 +79,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 1.3em;
-    font-family: var(--primary-font);
+    font-family:var(--course-font);
 }
 
 .icons a {

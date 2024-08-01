@@ -1,4 +1,3 @@
-
 .row {
     flex-wrap: wrap;
 }
@@ -38,8 +37,6 @@
 
 .main-info input {
     margin: 10px 0px;
-    /*border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;*/
     border-radius: 8px;
     background-color: rgb(247, 248, 248);
 }
@@ -55,7 +52,19 @@
     padding: 10px 20px;
     border-radius: 18px;
     border: solid white 1px;
+    cursor: pointer;
 }
+
+.main-info .info p:hover {
+
+    background: -moz-linear-gradient(left, #FCFFF8 0%, #39C7CB 0%, #74ecde 100%);
+    background: -webkit-linear-gradient(left, #FCFFF8 0%, #39C7CB 0%, #74ecde 100%);
+    background: linear-gradient(to right, #FCFFF8 0%, #39C7CB 0%, #74ecde 100%);
+    transition: background-color 0.9s ease;
+    font-weight: 500;
+
+}
+
 
 .main-info .info,
 .landing-info {
@@ -74,8 +83,9 @@
     justify-content: center;
     padding: var(--main-padding);
 }
-.label{
-    background-color: rgb(243, 243, 243) ;
+
+.label {
+    background-color: rgb(243, 243, 243);
     padding: 40px;
 }
 
@@ -85,10 +95,11 @@
     flex-direction: column;
 }
 
-.course-content{
+.course-content {
     justify-content: center;
     align-items: center;
 }
+
 .course-section .container .row {
     display: flex;
     flex-direction: column;
@@ -105,18 +116,14 @@
 .form-info .container form {
     display: flex;
     align-items: center;
-  }
-  
+}
+
 .main-header,
 .header-content,
 .nav,
 .row,
-.row2 .content , #slider, .course-content{
+.row2 .content,
+
+.course-content {
     display: flex;
 }
-
-
-
-
-
-
