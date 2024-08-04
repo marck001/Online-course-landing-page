@@ -4,6 +4,9 @@
     background-color: aliceblue;
     justify-content: space-between;
     padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+
 }
 
 .sub-header {
@@ -28,9 +31,12 @@
 .header-content {
     margin: 10px;
     justify-content: space-between;
-    position: relative;
+  /*  position: relative;*/
 }
 
+.header-content.active {
+    display: block; 
+}
 
 #menu-icon {
     display: none;

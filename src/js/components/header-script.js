@@ -1,18 +1,49 @@
-const menuToggle = document.getElementById("menu-icon");
-const menu = document.getElementById("nav-menu");
-
+const toggle = document.querySelector("#menu-icon");
+const menu = document.querySelector(".header-content");
+const row2 = document.querySelector(".hidden");
 
 function toggleNavMenu() {
-    if (menu.classList.contains("active")) {
+    if (menu.classList.contains("active") && row2.classList.contains("active")) {
         menu.classList.remove("active");
-       
+        row2.classList.remove("active");
+        toggle.innerHTML = "<i class='fa-solid fa-bars'></i>";
     } else {
-        menuToggle.innerHTML = `<i class="fa-solid fa-bars"></i>`;
         menu.classList.add("active");
-
-        
-        menuToggle.innerHTML = "<i class='fas fa-times'></i>";
+        row2.classList.add("active");
+        toggle.innerHTML = "<i class='fa-solid fa-times'></i>";
     }
 }
 
-menuToggle.addEventListener("click", toggleNavMenu, false);
+
+toggle.addEventListener("click", toggleNavMenu, false);
+
+
+const items = document.querySelectorAll(".dropdown");
+
+function toggleItem(event) {
+    event.stopPropagation();
+
+    items.forEach(item => {
+        if (item !== this) {
+            item.classList.remove("dropdown-content-active");
+        }
+    });
+
+    this.classList.toggle("dropdown-content-active");
+}
+
+
+items.forEach(item => {
+    item.addEventListener("click", toggleItem);
+});
+
+
+function closeDropDownFromClickingAnywhere(event) {
+    if (!event.target.closest(".dropdown-content") && !event.target.closest(".dropdown")) {
+        items.forEach(item => {
+            item.classList.remove("dropdown-content-active");
+        });
+    }
+}
+
+document.addEventListener("click", closeDropDownFromClickingAnywhere);

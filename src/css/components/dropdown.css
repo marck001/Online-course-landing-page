@@ -43,3 +43,21 @@
     transition: all 0.5s ease;
 
 }
+
+.visible{
+    display: block;
+}
+
+.active .dropdown {
+    display: block;
+}
+
+
+.dropdown-content-active{
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+
+.dropdown-content-active .dropdown-content {
+    display: block;
+}

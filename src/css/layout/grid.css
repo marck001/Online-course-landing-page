@@ -13,6 +13,7 @@
 
 .row2 .icons {
     margin: 20px;
+    display: flex;
 }
 
 .row2 .icons a:hover {
@@ -120,8 +121,7 @@
 
 .main-header,
 .header-content,
-.nav,
-.row,
+.nav, .row,
 .row2 .content,
 
 .course-content {
