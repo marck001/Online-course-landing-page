@@ -51,6 +51,7 @@
 .form-section .form-info {
     padding: 10% 5%;
     font-size: 2.0em;
+    text-align: center;
 }
 
 .form-content{
@@ -64,6 +65,7 @@
 .form-info .container {
     margin: var(--main-padding);
     display: block;
+    
 }
 
 .form-info .container  p {

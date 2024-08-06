@@ -568,74 +568,128 @@
         <section>
 
         </section>
+        <section class="subscription-section">
+
+
+            <div class="card-container h">
+                <div class="card-details">
+                    <div class="card-name">Free</div>
+                    <div class="card-price"><sup>$</sup><b>0.00</b></div>
+                    <hr>
+                    <div class="card-info">Limited Access</div>
+                    <hr>
+                    <div class="card-features">Free courses</div>
+                    <hr>
+                    <div class="card-description">Send To More People</div>
+                    <hr>
+                    <button id="sub1" type="submit">SUBSCRIBE</button>
+                </div>
+            </div>
+
+            <div class="card-container adept">
+                <div class="card-details f">
+                    <div class="card-name">Basic</div>
+                    <div class="card-price"><sup>$</sup><b>9.99</b></div>
+                    <hr>
+                    <div class="card-info">Unlimited Access</div>
+                    <hr>
+                    <div class="card-features">Paid Courses and videos</div>
+                    <hr>
+                    <div class="card-description">Send To More People</div>
+                    <hr>
+                    <button id="sub2" type="submit">SUBSCRIBE</button>
+                </div>
+            </div>
+
+            <div class="card-container h">
+                <div class="card-details">
+                    <div class="card-name">Pro</div>
+                    <div class="card-price"><sup>$</sup><b>19.99</b></div>
+                    <hr>
+                    <div class="card-info">Unlimited Access</div>
+                    <hr>
+                    <div class="card-features">Paid Courses and tutoring help</div>
+                    <hr>
+                    <div class="card-description">Send To More People</div>
+                    <hr>
+                    <button id="sub3" type="submit">SUBSCRIBE</button>
+                </div>
+            </div>
+
+
+        </section>
 
         <section class="form-section">
 
 
-            <div class="form-container">
-                <form class="form">
-                    <h3>Registration form</h3>
+            <div class="container">
+                <div class="form-container">
+                    <form class="form">
+                        <h3>Registration form</h3>
 
-                    <div class="form-content">
-                        <div class="form-row">
-                            <fieldset class="field">
-                                <input id="first-name" name="first-name" type="text" required placeholder="Name..." />
-                                <input id="last-name" name="last-name" type="text" required placeholder="Lastname..." />
-                                <input id="email" name="email" type="email" required placeholder="e-mail..." />
+                        <div class="form-content">
+                            <div class="form-row">
+                                <fieldset class="field">
+                                    <input id="first-name" name="first-name" type="text" required
+                                        placeholder="Name..." />
+                                    <input id="last-name" name="last-name" type="text" required
+                                        placeholder="Lastname..." />
+                                    <input id="email" name="email" type="email" required placeholder="e-mail..." />
 
-                            </fieldset>
-                        </div>
-                        <div class="form-row">
-                            <fieldset class="field">
+                                </fieldset>
+                            </div>
+                            <div class="form-row">
+                                <fieldset class="field">
 
-                                <label for="referrer">How did you hear about us?
-                                    <select name="referrer">
-                                        <option value="">select one</option>
-                                        <option value="1">News</option>
-                                        <option value="2">Channel</option>
-                                        <option value="4">Other</option>
-                                    </select>
+                                    <label for="referrer">How did you hear about us?
+                                        <select name="referrer">
+                                            <option value="">select one</option>
+                                            <option value="1">News</option>
+                                            <option value="2">Channel</option>
+                                            <option value="4">Other</option>
+                                        </select>
+                                    </label>
+                                    <label for="bio">Provide a bio descripcion:
+
+                                        <textarea id="bio" name="bio" rows="3" cols="25"
+                                            placeholder="I like coding"></textarea>
+
+
+                                    </label>
+
+
+
+                                </fieldset>
+                                <label for="terms-and-conditions">
+                                    <input class="inline" id="terms-and-conditions" type="checkbox" required
+                                        name="terms-and-conditions" /> I accept the <a>terms and conditions</a>
                                 </label>
-                                <label for="bio">Provide a bio descripcion:
+                            </div>
+                            <button type="submit">Submit</button>
 
-                                    <textarea id="bio" name="bio" rows="3" cols="25"
-                                    placeholder="I like coding"></textarea>
-                                    
-
-                                </label>
-
-
-
-                            </fieldset>
-                            <label for="terms-and-conditions">
-                                <input class="inline" id="terms-and-conditions" type="checkbox" required
-                                    name="terms-and-conditions" /> I accept the <a>terms and conditions</a>
-                            </label>
                         </div>
-                        <button type="submit">Submit</button>
+
+                    </form>
+
+                    <div class="form-info">
+                        <h4>Register here</h4>
+
+
+                        <div class="container">
+                            <h5>Subscribe via Email</h5>
+                            <p>Get updates when new tutorials and courses are published on UrCode. Enter your email to
+                                enroll.</p>
+                            <form>
+                                <input type="email" name="email" id="email" placeholder="Enter your email address"
+                                    autocomplete="off">
+                                <button type="button">Subscribe</button>
+                            </form>
+                        </div>
 
                     </div>
-
-                </form>
-
-                <div class="form-info">
-                    <h4>Register here</h4>
-
-
-                    <div class="container">
-                        <h5>Subscribe via Email</h5>
-                        <p>Get updates when new tutorials and courses are published on UrCode. Enter your email to
-                            enroll.</p>
-                        <form>
-                            <input type="email" name="email" id="email" placeholder="Enter your email address"
-                                autocomplete="off">
-                            <button type="button">Subscribe</button>
-                        </form>
-                    </div>
-
                 </div>
-            </div>
 
+            </div>
         </section>
 
 
@@ -662,7 +716,8 @@
                 </div>
                 <div class="socials">
 
-                    <a href="https://github.com/marck001" target="_blank" style="color: black;"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/marck001" target="_blank" style="color: black;"><i
+                            class="fa-brands fa-github"></i></a>
                     <a><i class="fa-brands fa-discord"></i></a>
                     <a><i class="fa-brands fa-youtube"></i></a>
 

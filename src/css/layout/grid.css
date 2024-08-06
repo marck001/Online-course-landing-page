@@ -105,6 +105,18 @@
     display: flex;
     flex-direction: column;
 }
+.subscription-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.subscription-section .container{
+
+   
+    padding: 20px;
+}
 
 .form-section {
     background-color: aliceblue;
