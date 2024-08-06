@@ -39,7 +39,7 @@
 .main-info input {
     margin: 10px 0px;
     border-radius: 8px;
-    background-color: rgb(247, 248, 248);
+    background-color: var(--border-color);
 }
 
 .main-info .info {
@@ -86,8 +86,10 @@
 }
 
 .label {
-    background-color: rgb(243, 243, 243);
+    background-color: var(--animation-color3);
+    color: var(--primary-color);
     padding: 40px;
+    color: var(--primary-color);
 }
 
 .course-section .container {
@@ -105,16 +107,17 @@
     display: flex;
     flex-direction: column;
 }
-.subscription-section{
+
+.subscription-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
 
-.subscription-section .container{
+.subscription-section .container {
 
-   
+
     padding: 20px;
 }
 
@@ -133,7 +136,8 @@
 
 .main-header,
 .header-content,
-.nav, .row,
+.nav,
+.row,
 .row2 .content,
 
 .course-content {

@@ -8,19 +8,11 @@
         gap: 10px;
     }
 
-    /*
-
-    #nav-menu {
-        justify-content: center;
-        flex-wrap: nowrap;
-        background: none;
-    }*/
-
     .header-content {
         display: none;
-       align-items: center;
+        align-items: center;
 
-         
+
     }
 
     .header-content.active,
@@ -36,7 +28,7 @@
 
     #nav-menu {
 
-        flex-direction:column;
+        flex-direction: column;
         display: block;
     }
 
@@ -88,11 +80,11 @@
     .sub-header a {
         margin-bottom: 10px;
     }
- 
-   .content .icons{
-     justify-content:center;
-   }
- 
+
+    .content .icons {
+        justify-content: center;
+    }
+
 
     .slider-container {
         width: 370px;
@@ -101,7 +93,7 @@
 
     .nav {
         flex-direction: column;
-      
+
     }
 
 
@@ -146,8 +138,10 @@
     .dropdown-content {
         position: absolute;
     }
+
     .nav {
         flex-direction: row;
-      
+
     }
 }
+

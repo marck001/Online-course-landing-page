@@ -1,0 +1,32 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        --text-color: rgb(230, 230, 233);
+        --bkg-color: #222;
+    }
+   /* body.dark-theme {
+        --text-color: #222;
+        --bkg-color: rgb(230, 230, 233);
+    }*/
+
+    body.dark-theme {
+        --bkg-color: #121212; 
+        --text-color: #ffffff; 
+        --main-bg:#313131;
+        --secondary-text-color: #b0b0b0; 
+        --disabled-text-color: #757575; 
+        --primary-color: #efeef0; 
+        --secondary-color: #6c757d; 
+        --success-color: #4caf50; 
+        --warning-color: #ff9800; 
+        --info-color: #2196f3; 
+        --border-color: #373737; 
+        --label-color:#353535;
+        --animation-color:#202020;
+        --animation-color2:#333333;
+        --animation-color3:#646464;
+        --slider-color:#474747;
+        --course-color:#302f2f;
+      }
+    
+}
+

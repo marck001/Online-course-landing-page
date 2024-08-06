@@ -2,7 +2,7 @@
     display: inline-block;
     position: relative;
     cursor: pointer;
-    color: #4b4b55;
+    color:var(--secondary-text-color);
     font-weight: 500;
 }
 
@@ -12,10 +12,12 @@
     min-width: 120px;
     z-index: 1;
     margin: 3px;
-    background-color: ghostwhite;
+    background-color: var(--bkg-color);
     padding: 5px 0px;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px var(--info-color);
     box-shadow: inset 0px 4px 0px 0px blue;
+    color: var(--text-color);
+    
 }
 
 .dropdown-content a {

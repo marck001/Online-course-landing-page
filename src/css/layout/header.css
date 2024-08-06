@@ -1,16 +1,17 @@
 .main-header {
     font-family: var(--header-font);
     font-size: 1.1em;
-    background-color: aliceblue;
+    background-color:  var(--bkg-color)/* aliceblue*/;
     justify-content: space-between;
     padding: 10px;
     flex-wrap: wrap;
     align-items: center;
+    color: var(--text-color);
 
 }
 
 .sub-header {
-    background-color: rgb(129, 231, 231);
+    background-color: var(--secondary-color);
     text-align: center;
     display: block;
     padding: 10px 0;
