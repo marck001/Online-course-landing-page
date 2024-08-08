@@ -49,7 +49,7 @@
 }
 
 .main-info .info p {
-    background-color: rgb(163, 223, 223, 0.7);
+    background-color: var(--animation-color)/*rgb(163, 223, 223, 0.7)*/;
     padding: 10px 20px;
     border-radius: 18px;
     border: solid white 1px;
@@ -58,11 +58,12 @@
 
 .main-info .info p:hover {
 
-    background: -moz-linear-gradient(left, #FCFFF8 0%, #39C7CB 0%, #74ecde 100%);
-    background: -webkit-linear-gradient(left, #FCFFF8 0%, #39C7CB 0%, #74ecde 100%);
-    background: linear-gradient(to right, #FCFFF8 0%, #39C7CB 0%, #74ecde 100%);
+    background: -moz-linear-gradient(left, #686966 0%, var(--animation-color2)/* #39C7CB */0%, var(--animation-color3)/*#74ecde */100%);
+    background: -webkit-linear-gradient(left, #484b45 0%, var(--animation-color2)/* #39C7CB */0%, var(--animation-color3)/* #74ecde */100%);
+    background: linear-gradient(to right, #424241 0%, var(--animation-color2) /* #39C7CB*/ 0%, var(--animation-color3)/* #74ecde */100%);
     transition: background-color 0.9s ease;
     font-weight: 500;
+
 
 }
 

@@ -12,10 +12,11 @@
     --primary-color: #3a3a3a; 
     --secondary-color: #81e7e7 ; 
     --success-color: #54f379; 
-    --warning-color: #ffc107; 
-    --info-color: #17a2b8; 
+    --warning-color: #54e9df; 
+    --info-color: #32b2c5; 
     --slider-color: #f0f0f0; 
-    --dark-color: #343a40; 
+    --github-color:aliceblue;
+    --dark-color: #030303; 
     --secondary-text-color: #6c757d; 
     --disabled-text-color: #6c757d; 
     --border-color: #dee2e6; 
@@ -23,6 +24,8 @@
     --animation-color: #24C6DC ;
     --animation-color2:#2CC8D8;
     --animation-color3:#F3F3F3 ;
+    --toggle-color:#030303;
+    --form-color:#70e4da;
 
 }
 

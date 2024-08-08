@@ -38,10 +38,11 @@ button {
 .row-info button {
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: rgb(45, 241, 241);
+    background-color: var(--info-color);
     color: rgb(250, 245, 245);
 
 }
+
 
 
 .form-info .container form button,
@@ -50,8 +51,8 @@ button {
     border-radius: 0.25rem;
     outline: none;
     margin-left: 0.5rem;
-    border: 1px solid #54e9d0;
-    background-color: #54e9d0;
+    border: 1px solid var(--warning-color);
+    background-color: var(--warning-color);
     color: aliceblue;
     transition: 0.3s ease-in-out;
     font-weight: 400;

@@ -1,7 +1,7 @@
 .form {
     display: block;
     font-size: 1.3em;
-    background-color: rgb(112, 228, 218);
+    background-color: var(--form-color);
     padding: var(--main-padding);
     padding: 1% 5%;
     color: aliceblue;
@@ -15,15 +15,16 @@
 }
 
 .form input {
-    background-color: rgb(250, 253, 253);
+    background-color: var(--github-color);
     padding: 5px 20px;
     font-size: 1.1em;
     margin: 5px;
     border-radius: 0.25rem;
+    color: var(--toggle-color);
 }
 
 .form button {
-    background-color: rgb(20, 241, 241);
+    background-color: var(--warning-color);
     padding: 10px 20px;
     font-size: 22px;
     justify-content: center;
@@ -54,10 +55,15 @@
     text-align: center;
 }
 
+.field select, .field textarea{
+    background-color: var(--github-color);
+    color: var(--toggle-color);
+}
+
 .form-content{
     display: flex;
     flex-direction: column;
-    background-color: rgb(135, 241, 227);
+    background-color: var(--secondary-color);
     padding: var(--main-padding);
     border-radius: 10px;
 }
@@ -65,9 +71,17 @@
 .form-info .container {
     margin: var(--main-padding);
     display: block;
+    background-color: var(--label-color);
+    padding: var(--main-padding);
+    border-radius: 10px;
+    color: var(--text-color);
     
 }
 
+.form-info{
+    background-color: var(--github-color);
+    color: var(--toggle-color);
+}
 .form-info .container  p {
     margin: 1rem 0;
     font-weight: 300;
@@ -76,11 +90,13 @@
   }
   
   .form-info h4{
-    font-size: 1.3em;
+    font-size: 1.4em;
+
+    text-decoration: underline dotted rgb(131, 131, 131);
   }
 
   .form-info .container form input {
-    padding: 0.75rem;
+    padding: 0.74rem;
     border-radius: 0.25rem;
     outline: none;
     border: 1px solid #94949c;

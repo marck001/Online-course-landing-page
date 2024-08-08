@@ -11,7 +11,7 @@
 
 .search-box a{
 
-    background-color: aqua;
+   /* background-color: aqua;*/
     padding: 0px 10px;
 }
 
@@ -19,13 +19,18 @@
     display: inline;
     margin: 0;
 }
+
+.search-box .search{
+    border: var(--border-color);
+}
+
 .box-content .text-content {
     text-align: left;
     justify-content: stretch;
 }
 
 .box-content .text-content h4 {
-    color: var(--primay-color);
+    color: var(--toggle-color);
     text-align: center;
 }
 
@@ -40,7 +45,7 @@
 
 .course-content {
     display: grid;
-    margin: 10px 20px;
+    margin: 30px 20px;
     font-size: 1.1em;
     font-family: var(--course-font);
    
@@ -67,9 +72,15 @@
     transform: scale(1.05);
 }
 
-.course .text-content {
-    padding: 0px;
+.course .container .text-content {
+    margin: 3px 10px;
+  
+    color: var(--text-color);
    
+}
+
+.course .text-content h4{
+    color: var(--toggle-color);
 }
 .course .container{
 
@@ -87,7 +98,7 @@
     justify-content: space-between;
     font-size: 1.3em;
     font-family:var(--course-font);
-    color: var(--primay-color);
+    color: var(--text-color);
 }
 
 .icons a {
@@ -118,20 +129,18 @@
 .rating i {
     display: inline;
     padding: 5px;
-    color: var(--primay-color);
+    color: var(--toggle-color);
 
 }
 
 .card-container{
-    /*height: 420px;
-    width: 260px;*/
+
     display: flex;
     justify-content: center;
     /*padding: 7vh;*/
     padding: 50px;
-    background-color: white;
     /* border: 2px solid black; */
-    box-shadow:0 2px 10px 2px black;
+    box-shadow:0 2px 10px 2px var(--primay-color);
     border-radius: 12px;
     margin: 12px 0;
     display: block;
@@ -151,7 +160,7 @@
     padding: 0.8em;
     border: none;
     outline: none;
-    color: white;
+    color: var(--toggle-color);
     font-weight: 400;
     border-radius: 6px;
     cursor: pointer;
@@ -171,7 +180,7 @@
     color: white;
 }
 .adept{
-    background: rgb(128, 248, 248);
+    background: var(--secondary-color);
     color: white;
     height: 450px;
     transform: translateY(-15px);
@@ -188,12 +197,13 @@
 .card-details hr{
     height: 2px;
     margin: 20px 0;
-    background-color: black;
+    background-color: var(--toggle-color);
     outline: none;
     border: none;
 }
 .h{
-    background-color: white;
+    background-color: var(--course-color);
+    color: var(--toggle-color);
 }
 .h:hover{
     transform: scale(1.1) translateY(0px);
