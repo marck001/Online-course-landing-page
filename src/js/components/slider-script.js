@@ -26,7 +26,7 @@ document.querySelectorAll('.slider-container').forEach(container => {
         } else {
             slidesPerPage = 4;
         }
-        slidesCount = slides  - slidesPerPage;
+        slidesCount = slides - slidesPerPage;
         if (currentPosition > slidesCount) {
             currentPosition = slidesCount;
         }

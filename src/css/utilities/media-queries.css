@@ -53,19 +53,19 @@
         padding: 5px;
     }
 
-    .field{
+    .field {
         width: 100%;
     }
 
     .field input {
-        flex: 1; 
+        flex: 1;
         max-width: 100%;
-     
+
     }
 
     .form-info .container form input {
-        flex: 1; 
-        max-width: 100%; 
+        flex: 1;
+        max-width: 100%;
     }
 
 }
@@ -158,4 +158,3 @@
 
     }
 }
-

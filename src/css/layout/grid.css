@@ -53,7 +53,7 @@
 }
 
 .main-info .info p {
-    background-color: var(--animation-color)/*rgb(163, 223, 223, 0.7)*/;
+    background-color: var(--animation-color);
     padding: 10px 20px;
     border-radius: 18px;
     border: solid white 1px;

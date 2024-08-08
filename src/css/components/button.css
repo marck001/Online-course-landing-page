@@ -2,20 +2,6 @@ button {
     cursor: pointer;
 }
 
-.explore button {
-    padding: 10px 20px;
-    border-radius: 10px;
-    background-color: var(--border-color);
-    color: var(--primary-color);
-    border: none;
-    font-family: var(--course-font);
-}
-
-.explore button:hover {
-    background-color: var(--success-color);
-    font-weight: 500;
-    transition: background-color 0.6s ease;
-}
 
 .row2 button {
     margin: 5px;
@@ -43,7 +29,20 @@ button {
 
 }
 
+.explore button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--border-color);
+    color: var(--primary-color);
+    border: none;
+    font-family: var(--course-font);
+}
 
+.explore button:hover {
+    background-color: var(--success-color);
+    font-weight: 500;
+    transition: background-color 0.6s ease;
+}
 
 .form-info .container form button,
 .form button {

@@ -10,8 +10,6 @@
 }
 
 .search-box a {
-
-    /* background-color: aqua;*/
     padding: 0px 10px;
 }
 
@@ -168,6 +166,9 @@
     margin: 12px 0;
     display: block;
     font-family: var(--subscriptions-font);
+    z-index: 0;
+   
+    
 }
 
 .card-name {
@@ -248,7 +249,6 @@
 
 .h:hover {
     transform: scale(1.1) translateY(0px);
-    z-index: 10;
 }
 
 .f>hr {

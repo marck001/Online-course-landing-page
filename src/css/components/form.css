@@ -42,10 +42,10 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.field label{
+.field label {
     display: block;
     margin-bottom: 10px;
 }
@@ -56,12 +56,13 @@
     text-align: center;
 }
 
-.field select, .field textarea{
+.field select,
+.field textarea {
     background-color: var(--form-content-color);
     color: var(--toggle-color);
 }
 
-.form-content{
+.form-content {
     display: flex;
     flex-direction: column;
     background-color: var(--secondary-color);
@@ -76,27 +77,29 @@
     padding: var(--main-padding);
     border-radius: 10px;
     color: var(--text-color);
-    
+
 }
 
-.form-info{
+.form-info {
     background-color: var(--github-color);
     color: var(--toggle-color);
 }
-.form-info .container  p {
+
+.form-info .container p {
     margin: 1rem 0;
     font-weight: 300;
     font-size: 0.8em;
     letter-spacing: 1px;
-  }
-  
-  .form-info h4{
+}
+
+.form-info h4 {
     font-size: 1.4em;
+    font-family: var(--primary-font);
 
     text-decoration: underline dotted rgb(131, 131, 131);
-  }
+}
 
-  .form-info .container form input {
+.form-info .container form input {
     padding: 0.74rem;
     border-radius: 0.25rem;
     outline: none;
@@ -104,6 +107,4 @@
     background: transparent;
     color: #94949c;
     font-weight: 300;
-  }
-  
-
+}
