@@ -1,7 +1,5 @@
 
 
-
-
 window.onscroll = function() {scrollBar()};
 
 var navbar = document.getElementById("navbar");

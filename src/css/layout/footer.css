@@ -20,17 +20,16 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-/*
-    background-color: rgba(241, 241, 241, 0.3);*/
-    background-color: var(--border-color);
+    background-color: var(--form-content-color);
     border-radius: 3px;
     color: var(--text-color);
 }
 
 .footer-content .row h3 {
-    color: var(--form-color);
+    color: var(--info-color);
     font-size: 20px;
     font-weight: 500;
+  
 
 }
 
@@ -49,6 +48,14 @@
 
 .footer-text li {
     margin: 10px 5px;
+    cursor: pointer;
+    
+}
+
+.footer-text li:hover{
+
+    color: var(--toggle-color);
+   
 }
 
 .footer-box .socials {
@@ -74,6 +81,9 @@
     font-weight: 400;
 }
 
+.copyright-box i{
+    color: var(--primary-color);
+}
 .socials {
     font-size: 25px;
     letter-spacing: 3px;

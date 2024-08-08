@@ -14,8 +14,8 @@
     padding: var(--main-padding);
 }
 
-.form input {
-    background-color: var(--github-color);
+.field input {
+    background-color: var(--form-content-color);
     padding: 5px 20px;
     font-size: 1.1em;
     margin: 5px;
@@ -42,6 +42,7 @@
     text-align: left;
     display: flex;
     flex-direction: column;
+    
 }
 
 .field label{
@@ -56,7 +57,7 @@
 }
 
 .field select, .field textarea{
-    background-color: var(--github-color);
+    background-color: var(--form-content-color);
     color: var(--toggle-color);
 }
 

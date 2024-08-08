@@ -25,6 +25,7 @@
     padding: 40px 0px 0px;
 }
 
+
 .landing-info {
     flex-direction: column;
     text-align: center;
@@ -36,6 +37,9 @@
     margin: 10px;
 }
 
+.box-row{
+    display: flex;
+}
 .main-info input {
     margin: 10px 0px;
     border-radius: 8px;
@@ -68,6 +72,7 @@
 }
 
 
+
 .main-info .info,
 .landing-info {
     display: flex;
@@ -86,12 +91,6 @@
     padding: var(--main-padding);
 }
 
-.label {
-    background-color: var(--animation-color3);
-    color: var(--primary-color);
-    padding: 40px;
-    color: var(--primary-color);
-}
 
 .course-section .container {
     display: flex;
@@ -113,6 +112,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 
 }
 
@@ -124,6 +124,7 @@
 
 .form-section {
     background-color: aliceblue;
+    width: 100%;
 }
 
 .form-section .form-container {

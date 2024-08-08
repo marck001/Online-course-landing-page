@@ -38,7 +38,7 @@ items.forEach(item => {
 });
 
 
-function closeDropDownFromClickingAnywhere(event) {
+function closeDropDown(event) {
     if (!event.target.closest(".dropdown-content") && !event.target.closest(".dropdown")) {
         items.forEach(item => {
             item.classList.remove("dropdown-content-active");
@@ -46,4 +46,4 @@ function closeDropDownFromClickingAnywhere(event) {
     }
 }
 
-document.addEventListener("click", closeDropDownFromClickingAnywhere);
+document.addEventListener("click", closeDropDown);

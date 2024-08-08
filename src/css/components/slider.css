@@ -14,9 +14,12 @@
 	cursor: pointer;
 	padding: 10px;
 	border-radius: 5px;
-	border: solid white 1px;
+	border: solid  1px var(--toggle-color);
+
+	color: var(--toggle-color);
 	font-size: 20px;
-	background-color: rgb(100, 248, 248, 0.9);
+	background-color: var(--secondary-color);
+	opacity: 0.9;
 	z-index: 1;
 }
 

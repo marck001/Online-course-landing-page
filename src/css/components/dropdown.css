@@ -30,7 +30,9 @@
 }
 
 .dropdown a:hover {
-    color: blue;
+    color: var(--info-color);
+    border-radius: 3px;
+
    
 }
 
@@ -56,8 +58,10 @@
 
 
 .dropdown-content-active{
-    border-radius: 3px;
-    background-color: aliceblue;
+    color: var(--toggle-color);
+ 
+
+   
 }
 
 .dropdown-content-active .dropdown-content {

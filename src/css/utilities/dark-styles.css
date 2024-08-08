@@ -1,15 +1,4 @@
 @media (prefers-color-scheme: dark) {
-    /*
-    body{
-        --text-color: rgb(230, 230, 233);
-        --bkg-color: #222;
-    }
-
-*/
-    /* body.dark-theme {
-        --text-color: #222;
-        --bkg-color: rgb(230, 230, 233);
-    }*/
 
     .sub-header {
         border: 1px solid rgb(214, 212, 211);
@@ -28,6 +17,7 @@
         --primary-color: #efeef0;
         --secondary-color: #6c757d;
         --success-color: #4caf50;
+        --star-color:#c5c94f;
         --warning-color: #14c8aa;
         --info-color: #398ccf;
         --border-color: #373737;
@@ -40,6 +30,7 @@
         --toggle-color: #ffffff;
         --github-color:#0b0f13;
         --form-color:#15222c;
+        --form-content-color:#292929;
     }
 
 }
