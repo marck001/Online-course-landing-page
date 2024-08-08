@@ -1,7 +1,7 @@
 .main-header {
     font-family: var(--header-font);
     font-size: 1.1em;
-    background-color:  var(--bkg-color)/* aliceblue*/;
+    background-color:  var(--bkg-color);
     justify-content: space-between;
     padding: 10px;
     flex-wrap: wrap;
@@ -20,6 +20,7 @@
     position: sticky;
     font-family: var(--primary-font);
     width: 100%;
+    z-index: 3;
 }
 
 .sub-header a {
@@ -34,7 +35,7 @@
 .header-content {
     margin: 10px;
     justify-content: space-between;
-  /*  position: relative;*/
+
 }
 
 .header-content.active {
